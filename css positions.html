@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .static-position {
+        position: static;
+        color: red;
+      }
+
+      .fixed-position {
+        position: fixed;
+        top: 20px;
+        left: 10px;
+        color: blue;
+      }
+
+      .sticky-position {
+        position: sticky;
+        top: 30px;
+        color: yellow;
+      }
+
+      .relative-position {
+        position: relative;
+        top: 40px;
+        left: 10px;
+        color: green;
+      }
+
+      .absolute-position {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="static-position">This is a static positioned element.</div>
+
+    <div class="fixed-position">This is a fixed positioned element.</div>
+
+    <div class="sticky-position">This is a sticky positioned element.</div>
+
+    <div class="relative-position">
+      This is a relatively positioned element.
+    </div>
+
+    <div class="absolute-position">
+      This is an absolutely positioned element.
+    </div>
+  </body>
+</html>
